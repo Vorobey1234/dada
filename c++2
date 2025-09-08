@@ -1,0 +1,7 @@
+#include <iostream>;
+#include <string>;
+using namespace std;
+
+int main() {
+    char spisok[] = {'1','D','3','B','c','5','D'};
+}

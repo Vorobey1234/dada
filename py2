@@ -1,0 +1,6 @@
+spisok = ['1', 'D', '3', 'B', 'c', '5','D']
+letters = ''.join(i for i in spisok if i.isdigit()==False)
+numbers = ''.join(i for i in spisok if i.isdigit()==True)
+del spisok
+print('Цифры: ', numbers)
+print('Буквы: ', letters)

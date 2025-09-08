@@ -1,0 +1,7 @@
+s = 'AaBbCcDd'
+
+upper_str = ''.join(c for c in s if c.isupper())
+lower_str = ''.join(c for c in s if c.islower())
+
+print('Заглавные:', upper_str)
+print('Строчные:', lower_str)

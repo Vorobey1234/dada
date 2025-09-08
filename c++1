@@ -1,0 +1,18 @@
+#include <iostream>;
+#include <string>;
+using namespace std;
+
+int main() {
+	string spisok = "AaBbCcDd";
+	string up = "";
+	string down = "";
+	for (char c : spisok){
+	    if ('A' <=c and c<= 'Z'){
+	        up += c;
+	    }
+	    else if ('a' <=c and c<= 'z'){
+	        down += c;
+	    }
+	}
+	cout << "Заглавные: " << up << "\nСтрочные: " << down << '\n';
+}
